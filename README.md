@@ -5,3 +5,9 @@
 
 // Add "type": "module", to packet.json
 
+
+// create frontend
+- cd frontend
+- npm create vite@latest .
+- npm install
+- npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
