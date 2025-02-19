@@ -15,7 +15,7 @@ const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Container maxW={"1140px"} px={4} >
+    <Container maxW={"1140px"} px={4}>
       <Flex
         h={16}
         align={"center"}
@@ -37,7 +37,7 @@ const Navbar = () => {
         </Text>
 
         <HStack spacing={2} alignItems={"center"}>
-          <Link>
+          <Link to={"/create"}>
             <Button>
               <PlusSquareIcon fontSize={20} />
             </Button>
