@@ -12,3 +12,4 @@
 - npm install
 - npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 - npm i react-router-dom
+- npm i zustand
